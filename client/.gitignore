@@ -1,0 +1,8 @@
+node_modules/
+.env
+uploads/
+venv/
+__pycache__/
+*.pyc
+extracted.json
+llm_output.json

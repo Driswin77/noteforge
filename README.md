@@ -4,7 +4,7 @@ Turn lecture slides into structured, studyable notes — automatically.
 
 Upload a PDF or PPTX deck and NoteForge extracts the content, restructures it into topic-based sections using AI, and generates a glossary and self-test quiz for each section. Built to solve a real problem: lecture slides are bullet-heavy and unstructured, making last-minute revision inefficient.
 
-**Live demo:** [your-vercel-url-here](#)
+**Live demo:** https://noteforge-pi-drab.vercel.app/
 
 ---
 

@@ -9,7 +9,7 @@ function NotesViewer({ noteSetId, onReset }) {
   const sectionRefs = useRef([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/notesets/${noteSetId}`)
+    axios.get(`${import.meta.env.VITE_API_URL}/api/notesets/${noteSetId}`)
       .then((res) => setNoteSet(res.data))
       .catch((err) => setError(err.response?.data?.error || "Failed to load notes."));
   }, [noteSetId]);
